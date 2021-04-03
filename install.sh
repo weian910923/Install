@@ -150,6 +150,8 @@ EOF
 systemctl restart nginx
 systemctl restart php-fpm
 
+http://pa.com/phpMyAdmin/index.php
+
 ##########查看虛擬機 ip 綁定本機
 ip a
 sudo vi /etc/hosts
