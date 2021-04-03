@@ -12,6 +12,17 @@ yum install yum-utils -y
 ###################
 timedatectl set-timezone Asia/Taipei
 
+
+###################
+### vim numactl
+###################
+rpm -qa | grep vim
+yum -y install vim*
+yum install vim-enhanced -y
+vim --version
+
+yum -y install numactl htop
+
 ###################
 ### 安裝 nginx
 ###################
