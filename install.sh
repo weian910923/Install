@@ -124,7 +124,7 @@ cd /var/lib/php;chmod -R 777 session
 vi /etc/php.ini;error_reporting = 〜E_DEPRECATED＆E_ALL
 
 ### phpmyadmin nginx 設定
-cat > /etc/nginx/conf.d/blog.conf <<EOF
+cat > /etc/nginx/conf.d/pa.conf <<EOF
 server {
     listen 80;
     server_name pa.com;
